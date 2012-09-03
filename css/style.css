@@ -1,0 +1,16 @@
+body{
+	background-image: url(../img/pattern.png);
+	font-family: 'Open Sans', sans-serif;
+}
+
+.blue-header{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.call-to-action{
+	margin-top: 10px;
+	margin-bottom: 25px;
+	font-size: 40px;
+	line-height: 1em;
+}
