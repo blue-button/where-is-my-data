@@ -34,3 +34,14 @@ body{
 .page-footer{
 	margin-bottom: 20px;
 }
+
+.data-facts{
+	background-color: #FFFFFF;
+	font-size: 1em;
+}
+
+.fact-label{
+	font-weight: bold;
+	font-size: 1.3em;
+	line-height: 1.5em;
+}
