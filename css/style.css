@@ -1,25 +1,28 @@
-body{
+body {
 	background-image: url(../img/pattern.png);
 	font-family: 'Open Sans', sans-serif;
+	margin: 0; 
+	padding: 0;
 }
 
-.blue-header{
+.blue-header {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
-.call-to-action{
+.call-to-action  {
 	margin-top: 10px;
 	margin-bottom: 25px;
 	font-size: 40px;
 	line-height: 1em;
 }
 
-.bbinfo{
+.bbinfo {
 	margin-top: 25px;
+	margin-bottom: 40px;
 }
 
-.page-footer hr{
+.page-footer hr {
   -moz-border-bottom-colors: none;
   -moz-border-image: none;
   -moz-border-left-colors: none;
@@ -31,17 +34,35 @@ body{
   margin: 18px 0 5px 0;
 }
 
-.page-footer{
+.page-footer {
 	margin-bottom: 20px;
 }
 
-.data-facts{
+.data-facts {
 	background-color: #FFFFFF;
 	font-size: 1em;
 }
 
-.fact-label{
+.fact-label {
 	font-weight: bold;
 	font-size: 1.3em;
 	line-height: 1.5em;
 }
+
+.row-fluid h2 {font-size: 1em; margin: 0 0 .5em 0; padding: 0; line-height: 1.2em;}
+
+/*** Danny Chapman 9/8/2012 ***/
+
+.content {padding: 4% 6%;}
+
+html.cssgradients .well {
+  border: 1px solid #e3e3e3;
+}
+
+html.no-cssgradients .well {
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.btn {margin-bottom: .5em;}
+
