@@ -22,19 +22,14 @@ body {
 	margin-bottom: 40px;
 }
 
-.page-footer hr {
-  -moz-border-bottom-colors: none;
-  -moz-border-image: none;
-  -moz-border-left-colors: none;
-  -moz-border-right-colors: none;
-  -moz-border-top-colors: none;
-  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
-  border-style: solid none;
-  border-width: 1px 0;
-  margin: 18px 0 5px 0;
+hr {
+  border-color: #EEEEEE;
+  border-style: solid;
+  border-width: 1px;
+  margin: 0px 0px 10px 0px;
 }
 
-.page-footer {
+footer.page-footer {
 	margin-bottom: 20px;
 }
 
@@ -43,7 +38,7 @@ body {
 	font-size: 1em;
 }
 
-.fact-label {
+footer.fact-label {
 	font-weight: bold;
 	font-size: 1.3em;
 	line-height: 1.5em;
